@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="Question1">Which is the largest desert on earth?</string>
+    <string name="Sahara">Sahara</string>
+    <string name="Gibson">Gibson</string>
+    <string name="Arabian">Arabian</string>
+    <string name="Mojave">Mojave</string>
+    <string name="Question2">Which is the largest country?</string>
+    <string name="USA">USA</string>
+    <string name="Russia">Russia</string>
+    <string name="China">China</string>
+    <string name="Canada">Canada</string>
+    <string name="Question3">Which is the longest river in Africa?</string>
+    <string name="checkAnswer">Write your answer here</string>
+    <string name="Question4">Which is by area the smallest independent country of the world </string>
+    <string name="Monaco">Monaco</string>
+    <string name="Vatican">Vatican City</string>
+    <string name="Brazil">Brazil</string>
+    <string name="Japan">Japan</string>
+    <string name="Question5">Which of the following countries are located in North America?</string>
+    <string name="Mexico">Mexico</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Submit">Submit</string>
+
+
+</resources>

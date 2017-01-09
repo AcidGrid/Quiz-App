@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:fontFamily="casual"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Question1"
+                android:textSize="35sp"/>
+
+            <RadioGroup
+                android:id="@+id/Question1Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/SaharaDesert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Sahara"/>
+
+                <RadioButton
+                    android:id="@+id/Gibson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Gibson"/>
+
+                <RadioButton
+                    android:id="@+id/Arabian"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Arabian"/>
+
+                <RadioButton
+                    android:id="@+id/Mojave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mojave"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Question2"
+                android:textSize="35sp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Question2Group">
+
+                <RadioButton
+                    android:id="@+id/usaQuestion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/USA" />
+
+                <RadioButton
+                    android:id="@+id/canadaQuestion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Canada"/>
+
+                <RadioButton
+                    android:id="@+id/Russia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Russia"/>
+
+                <RadioButton
+                    android:id="@+id/China"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/China"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Question3"
+                android:textSize="35sp"/>
+
+            <EditText
+                android:id="@+id/EditQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/checkAnswer"
+                android:inputType="text"
+                android:imeOptions="actionNone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Question4"
+                android:textSize="35sp"/>
+
+            <RadioGroup
+                android:id="@+id/Question3Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Monaco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Monaco"/>
+
+                <RadioButton
+                    android:id="@+id/Vatican"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Vatican"/>
+
+                <RadioButton
+                    android:id="@+id/Japan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Japan"/>
+
+                <RadioButton
+                    android:id="@+id/Brazil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Brazil"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Question5"
+                android:textSize="35sp"/>
+
+            <CheckBox
+                android:id="@+id/Mexico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Mexico"/>
+
+            <CheckBox
+                android:id="@+id/USAQuestion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/USA"/>
+
+            <CheckBox
+                android:id="@+id/canadaQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Canada"/>
+
+            <CheckBox
+                android:id="@+id/Argentina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Argentina"/>
+
+            <Button
+                android:id="@+id/SubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Submit"
+                android:onClick="submitButtonPressed"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
